@@ -1,0 +1,59 @@
+/* Задание 2 */
+/* .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); Полупрозрачный фон
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+} */
+
+/* Задание 3 */
+/* body {
+    margin: 0;
+    overflow: hidden; Чтобы поле занимало всю ширину и высоту экрана
+} */
+
+/* #field {
+    width: 100%;
+    height: 100vh; Высота равна высоте экрана
+    background-color: green;
+    position: relative;
+} */
+
+/* Стили для мяча */
+/* #ball {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    transition: transform 0.5s ease; Плавное перемещение мяча
+} */
+/* Задание 4 */
+
+#trafficLight {
+    width: 100px;
+    text-align: center;
+}
+
+.light {
+    width: 60px;
+    height: 60px;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+.red { background-color: red; }
+.yellow { background-color: yellow; }
+.green { background-color: green; }
